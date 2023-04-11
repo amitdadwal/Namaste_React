@@ -15,7 +15,7 @@ React.createElement("div",
 ])
 
 
-console.log(parent);
+console.log(parent); // react element is nothing but a javascript object that describes a dom node with its type , attributes and children
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log(root);
 
